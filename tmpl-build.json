@@ -1,0 +1,35 @@
+{
+
+    "preview": {
+      "file": "index.ejs",
+      "styles": [
+        "c01-common"
+      ],
+      "testcase": [
+        {
+          "from": "http://localhost:800",
+          "to": "https://popmartjapan.xsrv.jp"
+        },
+        {
+          "from": "http://localhost:800",
+          "to": "https://xt9k645v-800.asse.devtunnels.ms"
+        },
+        {
+          "from": "http://localhost:5000",
+          "to": "https://xt9k645v-5000.asse.devtunnels.ms"
+        }
+      ]
+    },
+    "subdir_html": true,
+    "exchange": [
+      {
+        "from": "https://xt9k645v-800.asse.devtunnels.ms",
+        "to": "https://popmartjapan.xsrv.jp"
+      },
+      {
+        "from": "http://localhost:800",
+        "to": "https://popmartjapan.xsrv.jp"
+      }
+    ]
+
+}
